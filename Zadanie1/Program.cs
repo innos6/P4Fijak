@@ -76,8 +76,11 @@ namespace Zadanie1
                 int iloscOut = 0;
                 int.TryParse(iloscIn, out iloscOut);
 
-                string querry = $"INSERT INTO mg.Produkty ([IDproduktu], [NazwaProduktu], [CenaJednostkowa], [IlośćJednostkowa], [Wycofany])" +
-                                 $"VALUES ('{id + 1}', '{nazwa}', '{cenaOut}', '{iloscOut}', '0')";
+                string querry =  $"DECLARE @nazwa NVARCHAR(20) = '{nazwa}'" +
+                                 $"DECLARE @cena MONEY = {cenaOut}" +
+                                 $"DECLARE @ilosc INT = {iloscOut}" +
+                                 $"INSERT INTO mg.Produkty ([IDproduktu], [NazwaProduktu], [CenaJednostkowa], [IlośćJednostkowa], [Wycofany])" +
+                                 $"VALUES ({id + 1}, @nazwa , @cena, @ilosc, 0)";
                 using var command = new SqlCommand(querry, connection);
                 command.ExecuteNonQuery();
                 id++;
@@ -149,8 +152,12 @@ namespace Zadanie1
             int iloscOut = 0;
             int.TryParse(IloscIn, out iloscOut);
 
-            var querry = $"UPDATE mg.Produkty SET NazwaProduktu = '{nazwa}', CenaJednostkowa = {cenaOut}, IlośćJednostkowa = {iloscOut} " +
-                         $"WHERE IDproduktu = {idOut}";
+            var querry = $"DECLARE @id INT = {idOut}" +
+                         $"DECLARE @nazwa NVARCHAR(20) = '{nazwa}'" +
+                         $"DECLARE @cena MONEY = {cenaOut}" +
+                         $"DECLARE @ilosc INT = {iloscOut}" +
+                         $"UPDATE mg.Produkty SET NazwaProduktu = @nazwa, CenaJednostkowa = @cena, IlośćJednostkowa = @ilosc " +
+                         $"WHERE IDproduktu = @id";
             var command = new SqlCommand(querry, connection);
             command.ExecuteNonQuery();
         }
