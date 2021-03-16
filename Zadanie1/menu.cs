@@ -6,31 +6,35 @@ using System.Globalization;
 
 namespace Zadanie1
 {
-    public static class menu
+    public static class menuLoop
     {
-        public static void printUI(SqlConnection connection)
+        public static void proceed()
         {
-            int nextId =0;
-            try
+            var a = "";
+            do
             {
-                connection.Open();
-                var querry = "DECLARE @lastId INT =  (SELECT MAX(Produkty.IDproduktu) FROM mg.Produkty)+1" +
-                             "SELECT @lastId  ";
-                using var command = new SqlCommand(querry, connection);
-                var result = command.ExecuteScalar();
-                connection.Close();
-                nextId = int.Parse(result.ToString());
-                Console.WriteLine("1. Wyswietl tabele Produkty");
-                Console.WriteLine($"2. Dodaj nowy rekord o id : {nextId} ");
-                Console.WriteLine("3. Usun rekordy z id >= 81");
-                Console.WriteLine("4. Modyfikuj podukt o wybranym id");
-                Console.WriteLine("5. Exit");
-            }
-            catch (Exception e)
-            {
+                printUI();
+                a = Console.ReadLine();
+                Console.Clear();
+                switch (a)
+                {
+                    case "1": CRUDMenu.read(); break;
+                    case "2": CRUDMenu.create(); break;
+                    case "3": CRUDMenu.delete(); break;
+                    case "4": CRUDMenu.update(); break;
+                    case "5": break;
+                    default: break;
+                }
+            } while (a != "5");
+        }
 
-                Console.WriteLine(e.Message);
-            }
+        private static void printUI()
+        {
+            Console.WriteLine("1. Wyswietl tabele Produkty");
+            Console.WriteLine("2. Dodaj nowy rekord");
+            Console.WriteLine("3. Usun rekordy z id >= 81");
+            Console.WriteLine("4. Modyfikuj podukt o wybranym id");
+            Console.WriteLine("5. Exit");
         }
     }
 }
