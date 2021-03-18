@@ -12,13 +12,13 @@ namespace Zadanie1
             try
             {
                 Console.Write("Podaj nazwe produktu : ");
-                var nazwa = new SqlParameter("@nazwa", System.Data.SqlDbType.VarChar);
+                var nazwa = new SqlParameter("nazwa", System.Data.SqlDbType.VarChar);  
                 nazwa.Value = Console.ReadLine();
                 Console.WriteLine("Podaj cene produktu (X,XX): ");
-                var cena = new SqlParameter("@cena", System.Data.SqlDbType.Money);
+                var cena = new SqlParameter("cena", System.Data.SqlDbType.Money);
                 cena.Value = Console.ReadLine();
                 Console.WriteLine("Podaj ilość produktu : ");
-                var ilosc = new SqlParameter("@ilosc", System.Data.SqlDbType.Int);
+                var ilosc = new SqlParameter("ilosc", System.Data.SqlDbType.Int);
                 ilosc.Value = Console.ReadLine();
 
                 string querry =  $"DECLARE @lastId INT =  (SELECT MAX(Produkty.IDproduktu) FROM mg.Produkty)+1" +
