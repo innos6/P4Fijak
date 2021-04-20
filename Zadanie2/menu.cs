@@ -3,7 +3,7 @@
 
 namespace Zadanie2
 {
-    public static class menuLoop
+      public static class menuLoop
     {
         public static void proceed()
         {
