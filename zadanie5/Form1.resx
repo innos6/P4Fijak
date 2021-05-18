@@ -1,0 +1,452 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LoginButton.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>164, 79</value>
+  </data>
+  <data name="LoginButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="LoginButton.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="LoginButton.Text" xml:space="preserve">
+    <value>Zaloguj</value>
+  </data>
+  <data name="&gt;&gt;LoginButton.Name" xml:space="preserve">
+    <value>LoginButton</value>
+  </data>
+  <data name="&gt;&gt;LoginButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;LoginButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LoginPasswordBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>77, 47</value>
+  </data>
+  <data name="LoginPasswordBox.PasswordChar" type="System.Char, System.Private.CoreLib" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="LoginPasswordBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>162, 23</value>
+  </data>
+  <data name="LoginPasswordBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordBox.Name" xml:space="preserve">
+    <value>LoginPasswordBox</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoginLoginBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>77, 22</value>
+  </data>
+  <data name="LoginLoginBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>162, 23</value>
+  </data>
+  <data name="LoginLoginBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LoginLoginBox.Name" xml:space="preserve">
+    <value>LoginLoginBox</value>
+  </data>
+  <data name="&gt;&gt;LoginLoginBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginLoginBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;LoginLoginBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>6, 55</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>57, 15</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>6, 28</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 15</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>245, 150</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Logowanie</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RegisterButton.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>194, 111</value>
+  </data>
+  <data name="RegisterButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>75, 23</value>
+  </data>
+  <data name="RegisterButton.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="RegisterButton.Text" xml:space="preserve">
+    <value>Zarejestruj</value>
+  </data>
+  <data name="&gt;&gt;RegisterButton.Name" xml:space="preserve">
+    <value>RegisterButton</value>
+  </data>
+  <data name="&gt;&gt;RegisterButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegisterButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;RegisterButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RegisterCheckBox.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="RegisterCheckBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>16, 111</value>
+  </data>
+  <data name="RegisterCheckBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>96, 19</value>
+  </data>
+  <data name="RegisterCheckBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="RegisterCheckBox.Text" xml:space="preserve">
+    <value>Zgoda RODO</value>
+  </data>
+  <data name="&gt;&gt;RegisterCheckBox.Name" xml:space="preserve">
+    <value>RegisterCheckBox</value>
+  </data>
+  <data name="&gt;&gt;RegisterCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegisterCheckBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;RegisterCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RegisterPasswordConfirmBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>126, 76</value>
+  </data>
+  <data name="RegisterPasswordConfirmBox.PasswordChar" type="System.Char, System.Private.CoreLib" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="RegisterPasswordConfirmBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>143, 23</value>
+  </data>
+  <data name="RegisterPasswordConfirmBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordConfirmBox.Name" xml:space="preserve">
+    <value>RegisterPasswordConfirmBox</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordConfirmBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordConfirmBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordConfirmBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RegisterPasswordBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>126, 52</value>
+  </data>
+  <data name="RegisterPasswordBox.PasswordChar" type="System.Char, System.Private.CoreLib" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="RegisterPasswordBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>143, 23</value>
+  </data>
+  <data name="RegisterPasswordBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordBox.Name" xml:space="preserve">
+    <value>RegisterPasswordBox</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;RegisterPasswordBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RegisterLoginBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>126, 28</value>
+  </data>
+  <data name="RegisterLoginBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>143, 23</value>
+  </data>
+  <data name="RegisterLoginBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RegisterLoginBox.Name" xml:space="preserve">
+    <value>RegisterLoginBox</value>
+  </data>
+  <data name="&gt;&gt;RegisterLoginBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegisterLoginBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;RegisterLoginBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>15, 79</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>104, 15</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>13, 55</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>57, 15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>15, 28</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>274, 12</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>275, 150</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Rejestracja</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>561, 174</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
