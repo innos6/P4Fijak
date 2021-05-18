@@ -34,7 +34,7 @@ namespace zadanie5
             return !(left.login.Equals(right.login));
         }
 
-        public static string CreateMD5(string input)
+        private static string CreateMD5(string input)
         {
             using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
             {
