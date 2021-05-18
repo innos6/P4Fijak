@@ -23,17 +23,6 @@ namespace zadanie5
            
         }
 
-        public static bool operator ==(User left, User right)
-        {
-            
-            return left.login.Equals(right.login);
-        }
-        public static bool operator !=(User left, User right)
-        {
-
-            return !(left.login.Equals(right.login));
-        }
-
         private static string CreateMD5(string input)
         {
             using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
