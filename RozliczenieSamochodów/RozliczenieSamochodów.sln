@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozliczenieSamochodów", "RozliczenieSamochodów.csproj", "{30FE26E1-38CD-42C8-9762-BFE1AE6836EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30FE26E1-38CD-42C8-9762-BFE1AE6836EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FE26E1-38CD-42C8-9762-BFE1AE6836EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FE26E1-38CD-42C8-9762-BFE1AE6836EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FE26E1-38CD-42C8-9762-BFE1AE6836EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770DDD75-C75B-48DC-95B7-4237DB4B7374}
+	EndGlobalSection
+EndGlobal

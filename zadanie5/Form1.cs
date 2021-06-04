@@ -89,5 +89,10 @@ namespace zadanie5
             }
             
         }
+
+        private void RegisterLoginBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

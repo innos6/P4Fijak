@@ -129,6 +129,7 @@ namespace zadanie5
             // 
             resources.ApplyResources(this.RegisterLoginBox, "RegisterLoginBox");
             this.RegisterLoginBox.Name = "RegisterLoginBox";
+            this.RegisterLoginBox.TextChanged += new System.EventHandler(this.RegisterLoginBox_TextChanged);
             // 
             // label3
             // 
