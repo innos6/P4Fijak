@@ -106,7 +106,6 @@ namespace RozliczenieSamochodów
             context.SaveChanges();
             context.Przejazds.Load();
         }
-
     }
 
     public static class removeData
