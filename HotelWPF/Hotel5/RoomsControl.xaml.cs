@@ -32,6 +32,8 @@ namespace Hotel5
             DataContext = roomsControlViewModel;
         }
 
+        public delegate void OnRoomControlClosedEventHandler(Object o, EventArgs e);
+        public event OnRoomControlClosedEventHandler OnRoomControlClosed;
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -68,7 +70,7 @@ namespace Hotel5
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-           
+            OnRoomControlClosed?.Invoke(this, EventArgs.Empty);
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

@@ -81,9 +81,7 @@
     <Compile Include="RoomsControl.xaml.cs">
       <DependentUpon>RoomsControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\Documents\GitHub\P4Fijak\ProjektWpfHotel\RoomsControlViewModel.cs">
-      <Link>RoomsControlViewModel.cs</Link>
-    </Compile>
+    <Compile Include="RoomsControlViewModel.cs" />
     <Page Include="GuestsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -29,6 +29,9 @@ namespace Hotel5
             DataContext = reservationControlViewModel;
         }
 
+        public delegate void OnReservationControlClosedEventHandler(Object o, EventArgs e);
+        public event OnReservationControlClosedEventHandler OnReservationControlClosed;
+ 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -67,6 +70,11 @@ namespace Hotel5
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             reservationControlViewModel.reservations = context.Reservations.ToList();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            OnReservationControlClosed?.Invoke(this, EventArgs.Empty);
         }
     }
 }

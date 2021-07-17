@@ -26,11 +26,25 @@ namespace Hotel5
         {
             InitializeComponent();
             DataContext = mainWindowViewModel;
-            
 
+            //RoomsControl x = new RoomsControl();
+            //x.OnClosed += this.OnClosed;
         }
 
-        
+        private void OnRoomClosed(Object sender, EventArgs e)
+        {
+            mainWindowViewModel.IsRoomVisible = Visibility.Collapsed;
+        }
+
+        private void OnGuestClosed(Object sender, EventArgs e)
+        {
+            mainWindowViewModel.IsGuestVisible = Visibility.Collapsed;
+        }
+
+        private void OnReservationClosed(Object sender, EventArgs e)
+        {
+            mainWindowViewModel.IsReservationVisible = Visibility.Collapsed;
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -57,6 +71,11 @@ namespace Hotel5
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
+
         }
     }
 }

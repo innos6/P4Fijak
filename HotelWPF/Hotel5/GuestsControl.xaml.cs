@@ -29,6 +29,9 @@ namespace Hotel5
             DataContext = guestControlViewModel;
         }
 
+        public delegate void OnGuestControlClosedEventHandler(Object o, EventArgs e);
+        public event OnGuestControlClosedEventHandler OnGuestControlClosed;
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             
@@ -73,6 +76,11 @@ namespace Hotel5
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             guestControlViewModel.guests = context.Guests.ToList();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            OnGuestControlClosed?.Invoke(this, EventArgs.Empty);
         }
     }
 }

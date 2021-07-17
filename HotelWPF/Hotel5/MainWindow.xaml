@@ -31,9 +31,9 @@
                 <RowDefinition Height="19*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <local:RoomsControl Grid.Row="0" Visibility="{Binding ElementName=Rooms, Path=Visibility}"/>
-            <local:GuestsControl Grid.Row="0" Visibility="{Binding ElementName=Guests, Path=Visibility}"/>
-            <local:ReservationsControl Grid.Row="0" Visibility="{Binding ElementName=Reservations, Path=Visibility}"/>
+            <local:RoomsControl Grid.Row="0" Visibility="{Binding ElementName=Rooms, Path=Visibility}" OnRoomControlClosed="OnRoomClosed"/>
+            <local:GuestsControl Grid.Row="0" Visibility="{Binding ElementName=Guests, Path=Visibility}" OnGuestControlClosed="OnGuestClosed"/>
+            <local:ReservationsControl Grid.Row="0" Visibility="{Binding ElementName=Reservations, Path=Visibility}" OnReservationControlClosed="OnReservationClosed"/>
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>

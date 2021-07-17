@@ -17,6 +17,8 @@ namespace Hotel5
             _IsReservationVisible = Visibility.Collapsed;
         }
 
+
+
         private Visibility _IsRoomVisible;
         public Visibility IsRoomVisible
         { 
